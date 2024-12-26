@@ -43,4 +43,18 @@ A simple Chrome extension that displays a random bookmarked tweet from your X (f
 *   Chrome Extension APIs (storage, runtime)
 *   X (Twitter) API
 
-## Project Structure
+
+## Known Issues
+*   API Rate limiting: The extension might not work if the API rate limits are exceeded.
+*   Authentication: This project uses only a Bearer Token for authentication, and no user context.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues or pull requests.
+
+## License
+This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details. <!-- Add your license here -->
+
+## Author
+
+karthikreddy9035@gmail.com
