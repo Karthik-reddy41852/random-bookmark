@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Settings</title>
+    <style>
+      body {
+          font-family: sans-serif;
+          padding: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 300px;
+        }
+        button {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 15px;
+          border: none;
+          cursor: pointer;
+      }
+      button:hover {
+        background-color: #45a049;
+       }
+    </style>
+</head>
+<body>
+    <h1>Extension Settings</h1>
+    <form id="optionsForm">
+         <label for="apiKey">API Key:</label>
+         <input type="text" id="apiKey" name="apiKey" placeholder="Enter your API Key"><br>
+
+         <label for="apiSecret">API Secret:</label>
+         <input type="text" id="apiSecret" name="apiSecret" placeholder="Enter your API Secret"><br>
+
+         <label for="bearerToken">Bearer Token:</label>
+         <input type="text" id="bearerToken" name="bearerToken" placeholder="Enter your Bearer Token"><br>
+
+         <button type="submit">Save Keys</button>
+    </form>
+
+
+<script src="options.js"></script>
+</body>
+</html>
